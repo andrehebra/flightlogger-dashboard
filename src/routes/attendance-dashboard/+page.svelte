@@ -2,12 +2,12 @@
     import { Label, Input, Button } from 'flowbite-svelte';
     //import 'houdini';
 
-    //export let data;
+    export let data;
 
-    //$: ({ Cancellations } = data)
+    $: ({ Cancellations } = data)
 
-    //console.log(data)
-    //console.log(Cancellations)
+    console.log(data)
+    console.log(Cancellations)
     
     let firstName;
     let lastName;
