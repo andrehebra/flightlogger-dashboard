@@ -9,18 +9,19 @@
     },
     "devDependencies": {
         "@sveltejs/adapter-auto": "^3.0.0",
+        "@sveltejs/adapter-cloudflare": "^4.1.0",
         "@sveltejs/kit": "^2.0.0",
         "@sveltejs/vite-plugin-svelte": "^3.0.0",
         "autoprefixer": "^10.4.16",
         "flowbite": "^2.3.0",
         "flowbite-svelte": "^0.44.23",
         "houdini": "^1.2.38",
+        "houdini-svelte": "^1.2.38",
         "postcss": "^8.4.32",
         "postcss-load-config": "^5.0.2",
         "svelte": "^4.2.7",
         "tailwindcss": "^3.3.6",
-        "vite": "^5.0.3",
-        "houdini-svelte": "^1.2.38"
+        "vite": "^5.0.3"
     },
     "type": "module",
     "dependencies": {
