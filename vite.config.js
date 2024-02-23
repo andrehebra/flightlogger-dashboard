@@ -3,6 +3,5 @@ import houdini from 'houdini/vite'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-	plugins: [houdini(), sveltekit()],
-	optimizeDeps: { exclude: ["fsevents"] },
+	plugins: [houdini(), sveltekit()]
 });
