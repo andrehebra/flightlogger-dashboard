@@ -1,8 +1,8 @@
 <script lang="ts">
     import { Label, Input, Button } from 'flowbite-svelte';
-    import 'houdini';
+    //import 'houdini';
 
-    export let data;
+    //export let data;
 
     //$: ({ Cancellations } = data)
 
