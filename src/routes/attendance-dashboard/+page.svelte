@@ -18,7 +18,7 @@
     <Input class="form" id="large-input" size="lg" placeholder="First Name" />
     <Input class="form" id="large-input" size="lg" placeholder="Last Name" />
     <Button id="submit">Generate Report</Button>
-
+    {JSON.stringify(data)}
     
 </div>
 
