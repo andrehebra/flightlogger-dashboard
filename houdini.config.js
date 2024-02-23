@@ -2,6 +2,7 @@
 
 /** @type {import('houdini').ConfigFile} */
 const config = {
+    "schedmaPath": "./schema.graphql",
     "watchSchema": {
         "url": "https://api.flightlogger.net/graphql",
         headers: {

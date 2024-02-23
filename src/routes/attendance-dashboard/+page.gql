@@ -1,5 +1,5 @@
-query Cancellations($all: Boolean = true) {
-  bookings(all: $all) {
+query Cancellations {
+  bookings(all: true) {
     nodes {
       ... on SingleStudentBooking {
         student {
