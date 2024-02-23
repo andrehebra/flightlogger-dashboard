@@ -2,11 +2,6 @@
     import { Label, Input, Button } from 'flowbite-svelte';
     import 'houdini';
     
-    export let data;
-
-    $: ({ Cancellations } = data)
-
-    
     let firstName;
     let lastName;
 </script>

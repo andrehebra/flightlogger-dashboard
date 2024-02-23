@@ -1,5 +1,27 @@
-query Cancellations($all: Boolean) {
-  current_user {
-		firstName
-	}
+query Cancellations($all: Boolean = true) {
+  bookings(all: $all) {
+    nodes {
+      ... on SingleStudentBooking {
+        student {
+          firstName
+          lastName
+        }
+        instructor {
+          firstName
+          lastName
+        }
+        startsAt
+        endsAt
+        cancellation {
+          comment
+          id
+          title
+          user {
+            callSign
+          }
+        }
+        
+      }
+    }
+  }
 }
