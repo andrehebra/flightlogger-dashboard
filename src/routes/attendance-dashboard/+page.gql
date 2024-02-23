@@ -1,0 +1,5 @@
+query Cancellations($all: Boolean) {
+  current_user {
+		firstName
+	}
+}
