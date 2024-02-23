@@ -1,6 +1,5 @@
-<script lang="ts">
+<script>
     import { Label, Input, Button } from 'flowbite-svelte';
-    //import 'houdini';
 
     export let data;
 
@@ -18,7 +17,7 @@
     <Input class="form" id="large-input" size="lg" placeholder="First Name" />
     <Input class="form" id="large-input" size="lg" placeholder="Last Name" />
     <Button id="submit">Generate Report</Button>
-    {JSON.stringify(data)}
+    {JSON.stringify($Cancellations.data)}
     
 </div>
 
