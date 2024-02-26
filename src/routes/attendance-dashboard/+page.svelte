@@ -5,8 +5,10 @@
 
     $: ({ Cancellations } = data)
 
+    console.log("data: ")
     console.log(data)
-    console.log(Cancellations)
+    console.log("Collections: ")
+    //console.log(Cancellations.data)
     
     let firstName;
     let lastName;
